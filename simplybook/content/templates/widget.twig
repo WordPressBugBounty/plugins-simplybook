@@ -38,7 +38,7 @@
         container.parentNode.insertBefore(alertContainer, container);
 
         alertContainer.innerHTML = '<div class="alert alert-danger" style="color: #721c24;background-color: #f8d7da;border-color: #f5c6cb; padding: 20px; border-radius: 5px;">' +
-                    '<strong>Warning!</strong> Here is demo SimplyBook.Me widget. After setup plugin settings, you can see your widget here.'+
+                    '<strong>{{ __("Notice:") }}</strong> {{ __("This is a demo SimplyBook.me widget. Configure the plugin settings to display your customized widget <a href=\"%url%\">here</a>.")|replace({'%url%': "/wp-admin/admin.php?page=simplybook-integration"  })|raw() }}'+
             '</div>';
 
         new SimplybookWidget({
