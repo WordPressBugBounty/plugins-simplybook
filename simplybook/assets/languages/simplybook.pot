@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: SimplyBook.me - Booking and reservations calendar 3.0.0\n"
+"Project-Id-Version: SimplyBook.me - Booking and reservations calendar 3.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simplybook\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-20T10:58:40+00:00\n"
+"POT-Creation-Date: 2025-06-17T08:11:45+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: simplybook\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: simplybook.php
-msgid "https://help.simplybook.me/index.php/WordPress_plugn"
+msgid "https://help.simplybook.me/index.php?title=WordPress_integration"
 msgstr ""
 
 #. Description of the plugin
@@ -41,7 +41,7 @@ msgstr ""
 
 #: app/controllers/AdminController.php:30
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/src/components/Settings/SettingsMenu.jsx:16
 #: react/src/components/Settings/SettingsMenu.jsx:29
 msgid "Settings"
@@ -130,58 +130,66 @@ msgstr ""
 msgid "It seems that you haven’t published the booking widget on the front-end of your site. Please use the shortcode or Gutenberg Widget to create your booking page to accept bookings!"
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:127
-#: app/features/Onboarding/OnboardingController.php:269
-#: app/features/Onboarding/OnboardingController.php:314
+#: app/features/Onboarding/OnboardingController.php:130
+#: app/features/Onboarding/OnboardingController.php:272
+#: app/features/Onboarding/OnboardingController.php:317
 msgid "Please fill in all fields."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:151
+#: app/features/Onboarding/OnboardingController.php:154
 msgid "Please verify you're not a robot."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:155
+#: app/features/Onboarding/OnboardingController.php:158
 msgid "Please enter the confirmation code."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:194
+#: app/features/Onboarding/OnboardingController.php:197
 msgid "Something went wrong while saving the widget style settings. Please try again."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:199
+#: app/features/Onboarding/OnboardingController.php:202
 msgid "Successfully saved widget style settings"
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:225
+#: app/features/Onboarding/OnboardingController.php:228
 msgid "Calendar page title should be available if you choose to generate this page."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:291
-#: app/features/Onboarding/OnboardingController.php:333
+#: app/features/Onboarding/OnboardingController.php:294
+#: app/features/Onboarding/OnboardingController.php:336
 msgid "Unknown error occurred, please verify your credentials."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:298
+#: app/features/Onboarding/OnboardingController.php:301
 msgid "Login successful."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:419
+#: app/features/Onboarding/OnboardingController.php:341
+msgid "Successfully authenticated user"
+msgstr ""
+
+#: app/features/Onboarding/OnboardingController.php:406
+msgid "Successfully requested SMS code"
+msgstr ""
+
+#: app/features/Onboarding/OnboardingController.php:416
 msgid "Successfully finished onboarding!"
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:423
+#: app/features/Onboarding/OnboardingController.php:420
 msgid "An error occurred while finishing the onboarding process"
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:437
+#: app/features/Onboarding/OnboardingController.php:434
 msgid "Successfully removed all previous data."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingController.php:440
+#: app/features/Onboarding/OnboardingController.php:437
 msgid "An error occurred while trying to remove previous data."
 msgstr ""
 
-#: app/features/Onboarding/OnboardingService.php:69
+#: app/features/Onboarding/OnboardingService.php:72
 msgid "Please enter a valid email address and accept the terms and conditions"
 msgstr ""
 
@@ -264,7 +272,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/939.js:1
 #: react/src/components/Fields/ListItem.js:64
@@ -291,98 +299,98 @@ msgstr ""
 msgid "Your Trial period has expired! Please consider all premium features!"
 msgstr ""
 
-#: app/http/ApiClient.php:619
-#: app/http/ApiClient.php:827
+#: app/http/ApiClient.php:635
+#: app/http/ApiClient.php:844
 msgid "You are not authorized to do this."
 msgstr ""
 
-#: app/http/ApiClient.php:625
+#: app/http/ApiClient.php:641
 msgid "Too many attempts to register company, please try again in a minute."
 msgstr ""
 
-#: app/http/ApiClient.php:639
+#: app/http/ApiClient.php:655
 msgid "Please fill in all company data."
 msgstr ""
 
-#: app/http/ApiClient.php:683
+#: app/http/ApiClient.php:700
 msgid "Something went wrong while registering your company. Please try again."
 msgstr ""
 
-#: app/http/ApiClient.php:695
+#: app/http/ApiClient.php:712
 msgid "Company successfully registered."
 msgstr ""
 
-#: app/http/ApiClient.php:728
+#: app/http/ApiClient.php:745
 msgid "The company name is not allowed. Please change the company name."
 msgstr ""
 
-#: app/http/ApiClient.php:736
+#: app/http/ApiClient.php:753
 msgid "Unknown error encountered while registering your company. Please try again."
 msgstr ""
 
-#: app/http/ApiClient.php:835
+#: app/http/ApiClient.php:852
 msgid "Something went wrong, are you sure you started the company registration?"
 msgstr ""
 
-#: app/http/ApiClient.php:854
+#: app/http/ApiClient.php:871
 msgid "Something went wrong while confirming your email. Please try again."
 msgstr ""
 
-#: app/http/ApiClient.php:862
+#: app/http/ApiClient.php:879
 msgid "Email successfully confirmed."
 msgstr ""
 
-#: app/http/ApiClient.php:866
+#: app/http/ApiClient.php:883
 msgid "Unknown error encountered while confirming your email. Please try again."
 msgstr ""
 
-#: app/http/ApiClient.php:868
+#: app/http/ApiClient.php:885
 msgid "This confirmation code is not valid."
 msgstr ""
 
-#: app/http/ApiClient.php:1367
+#: app/http/ApiClient.php:1384
 msgid "Failed logging in, please verify your credentials."
 msgstr ""
 
-#: app/http/ApiClient.php:1370
+#: app/http/ApiClient.php:1387
 msgid "Unknown error"
 msgstr ""
 
-#: app/http/ApiClient.php:1376
+#: app/http/ApiClient.php:1393
 msgid "Login failed! Please try again later."
 msgstr ""
 
-#: app/http/ApiClient.php:1379
+#: app/http/ApiClient.php:1396
 msgid "Invalid response from SimplyBook.me"
 msgstr ""
 
-#: app/http/ApiClient.php:1427
+#: app/http/ApiClient.php:1444
 msgid "Failed two factor authentication, please verify your credentials."
 msgstr ""
 
-#: app/http/ApiClient.php:1430
+#: app/http/ApiClient.php:1447
 msgid "Unknown 2FA error"
 msgstr ""
 
-#: app/http/ApiClient.php:1437
+#: app/http/ApiClient.php:1454
 msgid "Two factor authentication failed! Please try again later."
 msgstr ""
 
-#: app/http/ApiClient.php:1440
+#: app/http/ApiClient.php:1457
 msgid "Invalid 2FA response from SimplyBook.me"
 msgstr ""
 
-#: app/http/ApiClient.php:1508
+#: app/http/ApiClient.php:1525
 #: react/build/843.js:1
 #: react/src/components/Modals/SignInModal.jsx:15
 msgid "Google Authenticator"
 msgstr ""
 
-#: app/http/ApiClient.php:1509
+#: app/http/ApiClient.php:1526
 msgid "SMS"
 msgstr ""
 
-#: app/http/ApiClient.php:1515
+#: app/http/ApiClient.php:1532
 msgid "Unknown 2FA provider"
 msgstr ""
 
@@ -1428,37 +1436,37 @@ msgid "Calendar shortcode"
 msgstr ""
 
 #: config/fields/design.php:12
-#: config/fields/design.php:152
+#: config/fields/design.php:161
 msgid "Flexible"
 msgstr ""
 
 #: config/fields/design.php:13
-#: config/fields/design.php:150
+#: config/fields/design.php:159
 msgid "Modern"
 msgstr ""
 
 #: config/fields/design.php:14
-#: config/fields/design.php:148
+#: config/fields/design.php:157
 msgid "Flexible weekly"
 msgstr ""
 
 #: config/fields/design.php:15
-#: config/fields/design.php:153
+#: config/fields/design.php:162
 msgid "Slots weekly"
 msgstr ""
 
 #: config/fields/design.php:16
-#: config/fields/design.php:156
+#: config/fields/design.php:165
 msgid "Modern Provider"
 msgstr ""
 
 #: config/fields/design.php:17
-#: config/fields/design.php:149
+#: config/fields/design.php:158
 msgid "Flexible Provider"
 msgstr ""
 
 #: config/fields/design.php:18
-#: config/fields/design.php:154
+#: config/fields/design.php:163
 msgid "Weekly classes"
 msgstr ""
 
@@ -1483,85 +1491,85 @@ msgid "RTL"
 msgstr ""
 
 #. translators: %s - IS or IS NOT
-#: config/fields/design.php:45
+#: config/fields/design.php:46
 msgid "When selected, writing starts from the right of the page and continues to the left, proceeding from top to bottom for new lines. Your website %s set to RTL."
 msgstr ""
 
-#: config/fields/design.php:56
+#: config/fields/design.php:59
 msgid "Allow switch to ADA"
 msgstr ""
 
-#: config/fields/design.php:57
+#: config/fields/design.php:61
 msgid "This adds a button to enable accessibility mode, which increases contrast for visitors with a visual disability."
 msgstr ""
 
-#: config/fields/design.php:66
-msgid "Clear the session of each widget initialization"
-msgstr ""
-
-#: config/fields/design.php:67
+#: config/fields/design.php:73
 msgid "Useful for in-store tablets, so each customer can make a new appointment without data from earlier ones."
 msgstr ""
 
-#: config/fields/design.php:144
+#: config/fields/design.php:76
+msgid "Clear the session of each widget initialization"
+msgstr ""
+
+#: config/fields/design.php:153
 msgid "Theme"
 msgstr ""
 
-#: config/fields/design.php:151
+#: config/fields/design.php:160
 msgid "Default"
 msgstr ""
 
-#: config/fields/design.php:155
+#: config/fields/design.php:164
 msgid "Daily classes"
 msgstr ""
 
-#: config/fields/design.php:157
+#: config/fields/design.php:166
 msgid "As slots"
 msgstr ""
 
-#: config/fields/design.php:158
+#: config/fields/design.php:167
 msgid "As table"
 msgstr ""
 
-#: config/fields/design.php:159
+#: config/fields/design.php:168
 msgid "Block"
 msgstr ""
 
-#: config/fields/design.php:160
+#: config/fields/design.php:169
 msgid "List"
 msgstr ""
 
-#: config/fields/design.php:161
+#: config/fields/design.php:170
 msgid "Single page"
 msgstr ""
 
-#: config/fields/design.php:162
+#: config/fields/design.php:171
 msgid "Display calendar"
 msgstr ""
 
-#: config/fields/design.php:163
+#: config/fields/design.php:172
 msgid "Base theme color"
 msgstr ""
 
-#: config/fields/design.php:164
+#: config/fields/design.php:173
 msgid "Show only available time"
 msgstr ""
 
-#: config/fields/design.php:165
+#: config/fields/design.php:174
 msgid "Hide unavailable days on calendar"
 msgstr ""
 
-#: config/fields/design.php:166
+#: config/fields/design.php:175
 msgid "Display calendar layout sidebar"
 msgstr ""
 
-#: config/fields/design.php:167
+#: config/fields/design.php:176
 msgid "Image scale mode"
 msgstr ""
 
 #: config/fields/providers.php:13
 #: config/menus.php:24
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Service Providers"
 msgstr ""
 
@@ -1608,7 +1616,7 @@ msgid "Schedule"
 msgstr ""
 
 #: config/menus.php:69
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Bookings"
 msgstr ""
 
@@ -1774,7 +1782,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -1786,7 +1794,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -1798,7 +1806,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -1865,7 +1873,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/939.js:1
 #: react/src/components/Fields/ListItem.js:27
@@ -1921,8 +1929,8 @@ msgstr ""
 #: react/build/182.js:1
 #: react/build/792.js:1
 #: react/build/939.js:1
-#: react/src/components/Fields/AuthenticationField.jsx:68
-#: react/src/components/Fields/AuthenticationField.jsx:71
+#: react/src/components/Fields/AuthenticationField.jsx:67
+#: react/src/components/Fields/AuthenticationField.jsx:70
 msgid "Log out"
 msgstr ""
 
@@ -1976,7 +1984,8 @@ msgstr ""
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:177
+#: react/src/components/Modals/Partials/FormLogin.jsx:196
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:152
 #: react/src/components/Onboarding/OnboardingStep.jsx:206
 msgid "Something went wrong"
 msgstr ""
@@ -1995,7 +2004,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2008,7 +2017,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2021,7 +2030,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2034,7 +2043,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2047,7 +2056,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2060,7 +2069,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2073,7 +2082,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2086,7 +2095,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2099,7 +2108,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2112,7 +2121,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2125,7 +2134,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2138,7 +2147,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2151,7 +2160,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2164,7 +2173,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2177,7 +2186,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2190,7 +2199,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2203,7 +2212,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2216,7 +2225,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2229,7 +2238,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2242,7 +2251,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2255,7 +2264,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2268,7 +2277,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2281,7 +2290,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2294,7 +2303,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2307,7 +2316,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2320,7 +2329,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2333,7 +2342,7 @@ msgstr ""
 #: react/build/107.js:1
 #: react/build/157.js:1
 #: react/build/182.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 #: react/build/792.js:1
 #: react/build/843.js:1
 #: react/build/939.js:1
@@ -2377,8 +2386,8 @@ msgstr ""
 #: react/build/46.js:1
 #: react/build/107.js:1
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:194
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:140
+#: react/src/components/Modals/Partials/FormLogin.jsx:213
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:171
 msgid "Close"
 msgstr ""
 
@@ -2422,37 +2431,37 @@ msgid "Settings saved successfully"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Live Help"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "days left"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Dashboard"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Clients"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Calendar"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Help Center"
 msgstr ""
 
 #: react/build/107.js:1
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "is expired."
 msgstr ""
 
@@ -2520,125 +2529,125 @@ msgstr ""
 msgid "Next step"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "is expired"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "No tasks available."
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Loading tasks..."
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Progress"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "All tasks"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Remaining tasks"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "You're all set! Great job!"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "You're on your way. You still have %s task open."
 msgid_plural "You're on your way. You still have %s tasks open."
 msgstr[0] ""
 msgstr[1] ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Not yet calculated..."
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Today"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "This week"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Service Provider"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Service"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Most popular"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Last 30 days"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "View Bookings"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "SMS Credits"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "SMS Gateway"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Membership"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Paid Events"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Management"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Tips & Tricks"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "View All"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Installed"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Install"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Activate"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Activating..."
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Downloading..."
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Other Plugins"
 msgstr ""
 
-#: react/build/747.js:1
+#: react/build/785.js:1
 msgid "Loading..."
 msgstr ""
 
@@ -2680,56 +2689,69 @@ msgid "SimplyBook.me will generate the following page automatically"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:78
+#: react/src/components/Modals/Partials/FormLogin.jsx:101
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:53
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:74
+msgid "An unknown error occurred, please try again."
+msgstr ""
+
+#: react/build/843.js:1
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:61
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:82
+msgid "An unknown error occurred. Please try again."
+msgstr ""
+
+#: react/build/843.js:1
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:99
 msgid "Select 2FA provider"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:102
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:123
 msgid "Enter 2FA authentication code"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:105
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:126
 msgid "Enter code"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:122
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:147
 msgid "SMS Requested"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:122
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:147
 msgid "Request SMS"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:187
-#: react/src/components/Modals/Partials/FormTwoFa.jsx:132
+#: react/src/components/Modals/Partials/FormLogin.jsx:206
+#: react/src/components/Modals/Partials/FormTwoFa.jsx:163
 msgid "Submit"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:116
+#: react/src/components/Modals/Partials/FormLogin.jsx:117
 msgid "Company domain"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:136
-#: react/src/components/Modals/Partials/FormLogin.jsx:139
+#: react/src/components/Modals/Partials/FormLogin.jsx:137
+#: react/src/components/Modals/Partials/FormLogin.jsx:140
 msgid "Company login"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:152
-#: react/src/components/Modals/Partials/FormLogin.jsx:155
+#: react/src/components/Modals/Partials/FormLogin.jsx:159
+#: react/src/components/Modals/Partials/FormLogin.jsx:162
 msgid "User login or email"
 msgstr ""
 
 #: react/build/843.js:1
-#: react/src/components/Modals/Partials/FormLogin.jsx:168
-#: react/src/components/Modals/Partials/FormLogin.jsx:171
+#: react/src/components/Modals/Partials/FormLogin.jsx:181
+#: react/src/components/Modals/Partials/FormLogin.jsx:184
 msgid "Password"
 msgstr ""
 
