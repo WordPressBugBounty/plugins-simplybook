@@ -27,15 +27,15 @@ return array(
 		'path'    => $vendorDir . '/adbario/php-dot-notation/src/helpers.php'
 	),
 	'5bc9c041796e4348fc427e9381e014b6' => array(
-		'version' => '3.1.1.0',
+		'version' => '3.2.0.0',
 		'path'    => $baseDir . '/app/App.php'
 	),
 	'2fd0677d8d23e6e7b0156d2f7d3368d4' => array(
-		'version' => '3.1.1.0',
+		'version' => '3.2.0.0',
 		'path'    => $baseDir . '/app/Plugin.php'
 	),
 	'dac67ee3b45b7fdd52cfb86981c8c3d0' => array(
-		'version' => '3.1.1.0',
+		'version' => '3.2.0.0',
 		'path'    => $baseDir . '/helpers.php'
 	),
 );

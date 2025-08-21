@@ -5,7 +5,7 @@ Tags: Booking, Calendar, Scheduling, Reservations, Appointments
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 3.1.1
+Stable tag: 3.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,7 @@ Simply add a booking calendar to your site to schedule bookings, reservations, a
 == Description ==
 
 SimplyBook.me is the easiest way to start collecting bookings on your WordPress website. The plugin will allow you to register your free account and immediately publish your booking calendar on the front-end of your site. With a few clicks, you can easily add your services and service providers, and design the most beautiful booking widget. You will be collecting appointments and reservations in no-time!
+
 * Easy appointment scheduling
 * Simple plugin onboarding and configuration
 * Manage your calendar and bookings using the powerful mobile app (iOS and Android)
@@ -33,6 +34,7 @@ SimplyBook.me is the easiest way to start collecting bookings on your WordPress 
 * Create individual schedules for staff
 * Create multiple users related to providers
 * Accepting payments and/or deposits to confirm the bookings in the booking process
+* Easily implement your booking widget with a Gutenberg block, Elementor Widget or a shortcode
 
 SimplyBook.me can be used for free up to 50 appointments per month. In addition, you can use one of the Special features for free! You will automatically be signed up for a Free 14-day trial, which allows you to test the Special Features without any restrictions, including advanced scheduling tools.
 
@@ -86,6 +88,17 @@ You can skip the onboarding and login with your existing login credentials.
 5. Your appointments schedule is also accessible via the mobile app!
 
 == Changelog ==
+= 3.2.0 =
+* Added: Widget can now be implemented using a SimplyBook.me Elementor block.
+* Added: Theme styling is used as a default style for the widget during onboarding.
+* Added: Tasks on the dashboard can now open a popup for more information.
+* Changed: Services and Service Providers can now be managed in the plugin.
+* Changed: Reduced load of the plugin on the WordPress admin.
+* Changed: Improved connection stability with the SimplyBook.me system.
+* Changed: Improved Swedish translations.
+* Fixed: Leave-page warning now only appears when there are unsaved changes.
+* Fixed: Added missing button spacing in the dashboard.
+
 = 3.1.1 =
 * Added: bookingsystem.nu and simplybooking.io domains now supported at login.
 * Added: Notice shown when WordPress REST API is disabled.

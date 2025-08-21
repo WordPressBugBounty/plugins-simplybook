@@ -6,7 +6,7 @@
 return [
     'plugin' => [
         'name' => 'SimplyBook.me',
-        'version' => '3.1.1',
+        'version' => '3.2.0',
         'pro' => true,
         'path' => dirname(__DIR__),
         'base_path' => dirname(__DIR__). DIRECTORY_SEPARATOR . plugin_basename(dirname(__DIR__)) . '.php',
@@ -115,6 +115,16 @@ return [
             ['value' => 'login:booking.register365.ie', 'label' => 'booking.register365.ie'],
             // wp.simplybook.ovh gets added in development mode via App::provide('simplybook_domains')
         ]
+    ],
+    'colors' => [
+        'fallback_colors' => [
+            'primary' => '#FF3259',
+            'secondary' => '#000000',
+            'active' => '#055B78',
+            'background' => '#f7f7f7',
+            'foreground' => '#494949',
+            'text' => '#ffffff',
+        ],
     ],
     'http' => [
         'version' => 'v1',

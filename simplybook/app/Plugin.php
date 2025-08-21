@@ -133,7 +133,7 @@ class Plugin
         /**
          * @deprecated 3.0.0 Use App::env('plugin.version') instead
          */
-        define('SIMPLYBOOK_VERSION', '3.1.1');
+        define('SIMPLYBOOK_VERSION', '3.2.0');
 
         /**
          * @deprecated 3.0.0 Use App::env('plugin.path') instead
@@ -197,7 +197,9 @@ class Plugin
             new Controllers\DesignSettingsController(
                 new Services\DesignSettingsService()
             ),
-            new Controllers\ServicesController(),
+            new Controllers\ServicesController(
+                new Http\Entities\Service(),
+            ),
             new Controllers\ReviewController(),
 	        new Controllers\WidgetTrackingController(
 		        new Services\WidgetTrackingService()
@@ -216,8 +218,12 @@ class Plugin
             new Http\Endpoints\LoginUrlEndpoint(
                 new Services\LoginUrlService(),
             ),
-            new Http\Endpoints\ServicesEndpoint(),
-            new Http\Endpoints\ProvidersEndpoint(),
+            new Http\Endpoints\ServicesEndpoint(
+                new Http\Entities\Service(),
+            ),
+            new Http\Endpoints\ServicesProvidersEndpoint(
+                new Http\Entities\ServiceProvider(),
+            ),
             new Http\Endpoints\SettingEndpoints(),
             new Http\Endpoints\WidgetEndpoint(
                 new Services\DesignSettingsService()
@@ -229,7 +235,10 @@ class Plugin
             new Http\Endpoints\RelatedPluginEndpoints(
                 new Services\RelatedPluginService(),
             ),
-            new Http\Endpoints\BlockEndpoints(),
+            new Http\Endpoints\BlockEndpoints(
+                new Http\Entities\Service(),
+                new Http\Entities\ServiceProvider(),
+            ),
             new Http\Endpoints\LogOutEndpoint(),
             new Http\Endpoints\TipsTricksEndpoint(),
             new Http\Endpoints\StatisticsEndpoint(
@@ -239,6 +248,9 @@ class Plugin
                 new Services\SubscriptionDataService(),
             ),
             new Http\Endpoints\PublicThemeListEndpoint(),
+            new Http\Endpoints\ThemeColorEndpoint(
+                new Services\ThemeColorService()
+            ),
         ]);
     }
 
