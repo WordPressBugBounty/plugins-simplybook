@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package SimplyBook.me - Booking and reservations calendar
  * @author Really Simple Plugins
@@ -9,7 +10,7 @@
  * Plugin Name: SimplyBook.me - Booking and reservations calendar
  * Plugin URI: https://help.simplybook.me/index.php?title=WordPress_integration
  * Description: Simply add a booking calendar to your site to schedule bookings, reservations, appointments and to collect payments.
- * Version: 3.2.0
+ * Version: 3.2.4
  * Requires at least: 6.6
  * Requires PHP: 7.4
  * Author: Really Simple Plugins
@@ -26,5 +27,5 @@
 require_once __DIR__ . '/vendor/autoload_packages.php';
 
 // Boot the plugin.
-$plugin = new \SimplyBook\Plugin();
+$plugin = new SimplyBook\Bootstrap\Plugin();
 $plugin->boot();

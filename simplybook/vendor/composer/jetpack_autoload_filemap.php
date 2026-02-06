@@ -7,11 +7,11 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => array(
-		'version' => '1.32.0.0',
+		'version' => '1.33.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
 	),
 	'a4a119a56e50fbb293281d9a48007e0e' => array(
-		'version' => '1.32.0.0',
+		'version' => '1.33.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-php80/bootstrap.php'
 	),
 	'6e3fae29631ef280660b3cdad06f25a8' => array(
@@ -26,16 +26,8 @@ return array(
 		'version' => '3.3.0.0',
 		'path'    => $vendorDir . '/adbario/php-dot-notation/src/helpers.php'
 	),
-	'5bc9c041796e4348fc427e9381e014b6' => array(
-		'version' => '3.2.0.0',
-		'path'    => $baseDir . '/app/App.php'
-	),
-	'2fd0677d8d23e6e7b0156d2f7d3368d4' => array(
-		'version' => '3.2.0.0',
-		'path'    => $baseDir . '/app/Plugin.php'
-	),
 	'dac67ee3b45b7fdd52cfb86981c8c3d0' => array(
-		'version' => '3.2.0.0',
+		'version' => '3.2.4.0',
 		'path'    => $baseDir . '/helpers.php'
 	),
 );

@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'really-simple-plugins/simplybookme',
-        'pretty_version' => '3.2.0',
-        'version' => '3.2.0.0',
+        'pretty_version' => '3.2.4',
+        'version' => '3.2.4.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => 'v5.0.7',
-            'version' => '5.0.7.0',
-            'reference' => '8ab8cc721937030a7a3d77d3d6698649f56de4d9',
+            'pretty_version' => 'v5.0.11',
+            'version' => '5.0.11.0',
+            'reference' => '90bf7b3bc29cb7be74105ac99afab4c21bc47e29',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
@@ -62,8 +62,8 @@
             ),
         ),
         'really-simple-plugins/simplybookme' => array(
-            'pretty_version' => '3.2.0',
-            'version' => '3.2.0.0',
+            'pretty_version' => '3.2.4',
+            'version' => '3.2.4.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -80,8 +80,8 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-mbstring' => array(
-            'pretty_version' => 'v1.32.0',
-            'version' => '1.32.0.0',
+            'pretty_version' => 'v1.33.0',
+            'version' => '1.33.0.0',
             'reference' => '6d857f4d76bd4b343eac26d6b539585d2bc56493',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
@@ -89,8 +89,8 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-php80' => array(
-            'pretty_version' => 'v1.32.0',
-            'version' => '1.32.0.0',
+            'pretty_version' => 'v1.33.0',
+            'version' => '1.33.0.0',
             'reference' => '0cc9dd0f17f61d8131e7df6b84bd344899fe2608',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php80',

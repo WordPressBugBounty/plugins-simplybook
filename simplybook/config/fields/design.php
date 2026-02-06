@@ -1,18 +1,23 @@
 <?php
+
+use SimplyBook\Bootstrap\App;
+
 defined( 'ABSPATH' ) or die( );
 
 /**
  * Get theme colors for default values
  */
-function getThemeColorsForDefaults(): array {
-    static $themeColors = null;
-    
-    if ($themeColors === null) {
-        $themeColorService = new \SimplyBook\Services\ThemeColorService();
-        $themeColors = $themeColorService->getThemeColors();
+if (!function_exists('getThemeColorsForDefaults')) {
+    function getThemeColorsForDefaults(): array {
+        static $themeColors = null;
+
+        if ($themeColors === null) {
+            $themeColorService = App::getInstance()->make(\SimplyBook\Services\ThemeColorService::class);
+            $themeColors = $themeColorService->getThemeColors();
+        }
+
+        return $themeColors;
     }
-    
-    return $themeColors;
 }
 
 $themeColors = getThemeColorsForDefaults();
