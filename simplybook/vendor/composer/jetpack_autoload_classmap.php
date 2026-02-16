@@ -423,547 +423,583 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
 	),
 	'SimplyBook\\Bootstrap\\App' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/bootstrap/App.php'
 	),
 	'SimplyBook\\Bootstrap\\Plugin' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/bootstrap/Plugin.php'
 	),
 	'SimplyBook\\Controllers\\AdminController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/AdminController.php'
 	),
 	'SimplyBook\\Controllers\\BlockController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/BlockController.php'
 	),
+	'SimplyBook\\Controllers\\BookingPageController' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Controllers/BookingPageController.php'
+	),
 	'SimplyBook\\Controllers\\CapabilityController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/CapabilityController.php'
 	),
+	'SimplyBook\\Controllers\\CompanyInfoController' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Controllers/CompanyInfoController.php'
+	),
 	'SimplyBook\\Controllers\\DashboardController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/DashboardController.php'
 	),
 	'SimplyBook\\Controllers\\DesignSettingsController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/DesignSettingsController.php'
 	),
 	'SimplyBook\\Controllers\\OnboardingNoticeController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/OnboardingNoticeController.php'
 	),
 	'SimplyBook\\Controllers\\ReviewController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/ReviewController.php'
 	),
 	'SimplyBook\\Controllers\\ScheduleController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/ScheduleController.php'
 	),
+	'SimplyBook\\Controllers\\ServiceProvidersController' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Controllers/ServiceProvidersController.php'
+	),
 	'SimplyBook\\Controllers\\ServicesController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/ServicesController.php'
 	),
 	'SimplyBook\\Controllers\\SettingsController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/SettingsController.php'
 	),
 	'SimplyBook\\Controllers\\TrialExpirationController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/TrialExpirationController.php'
 	),
 	'SimplyBook\\Controllers\\UpgradeController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/UpgradeController.php'
 	),
 	'SimplyBook\\Controllers\\WidgetController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/WidgetController.php'
 	),
 	'SimplyBook\\Controllers\\WidgetTrackingController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Controllers/WidgetTrackingController.php'
 	),
 	'SimplyBook\\Exceptions\\ApiException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/ApiException.php'
 	),
 	'SimplyBook\\Exceptions\\BuilderException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/BuilderException.php'
 	),
 	'SimplyBook\\Exceptions\\EmptyResponseException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/EmptyResponseException.php'
 	),
 	'SimplyBook\\Exceptions\\FormException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/FormException.php'
 	),
 	'SimplyBook\\Exceptions\\RestDataException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/RestDataException.php'
 	),
 	'SimplyBook\\Exceptions\\SettingsException' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Exceptions/SettingsException.php'
 	),
 	'SimplyBook\\Features\\AbstractLoader' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/AbstractLoader.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\AbstractNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/AbstractNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\AddMandatoryProviderNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/AddMandatoryProviderNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\AddMandatoryServiceNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/AddMandatoryServiceNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\FailedAuthenticationNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/FailedAuthenticationNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\MaxedOutProvidersNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/MaxedOutProvidersNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\MaxedOutServicesNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/MaxedOutServicesNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\Notices\\PublishWidgetNotice' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/Notices/PublishWidgetNotice.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationListener' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationListener.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationsController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationsController.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationsEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationsEndpoints.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationsLoader' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationsLoader.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationsRepository' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationsRepository.php'
 	),
 	'SimplyBook\\Features\\Notifications\\NotificationsService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Notifications/NotificationsService.php'
 	),
 	'SimplyBook\\Features\\Onboarding\\OnboardingController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Onboarding/OnboardingController.php'
 	),
 	'SimplyBook\\Features\\Onboarding\\OnboardingLoader' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Onboarding/OnboardingLoader.php'
 	),
 	'SimplyBook\\Features\\Onboarding\\OnboardingService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/Onboarding/OnboardingService.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementController' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementController.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementEndpoints.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementListener' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementListener.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementLoader' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementLoader.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementRepository' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementRepository.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\TaskManagementService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/TaskManagementService.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AbstractTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AbstractTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AcceptPaymentsTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AcceptPaymentsTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AddAllProvidersTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AddAllProvidersTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AddAllServicesTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AddAllServicesTask.php'
 	),
+	'SimplyBook\\Features\\TaskManagement\\Tasks\\AddCompanyInfoTask' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AddCompanyInfoTask.php'
+	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AddMandatoryProviderTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AddMandatoryProviderTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\AddMandatoryServiceTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/AddMandatoryServiceTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\BlackFridayTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/BlackFridayTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\ChristmasPromotionTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/ChristmasPromotionTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\CustomizeDesignTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/CustomizeDesignTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\FailedAuthenticationTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/FailedAuthenticationTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\GatherClientInfoTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/GatherClientInfoTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\GoToSimplyBookSystemTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/GoToSimplyBookSystemTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\InstallAppTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/InstallAppTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\MaxedOutProvidersTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/MaxedOutProvidersTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\MaximumBookingsTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/MaximumBookingsTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\PostOnSocialMediaTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/PostOnSocialMediaTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\PublishWidgetTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/PublishWidgetTask.php'
 	),
 	'SimplyBook\\Features\\TaskManagement\\Tasks\\TrialExpiredTask' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/TrialExpiredTask.php'
 	),
+	'SimplyBook\\Features\\TaskManagement\\Tasks\\VisitYourBookingPageTask' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Features/TaskManagement/Tasks/VisitYourBookingPageTask.php'
+	),
 	'SimplyBook\\Http\\ApiClient' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/ApiClient.php'
 	),
 	'SimplyBook\\Http\\DTO\\ApiResponseDTO' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/DTO/ApiResponseDTO.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\AbstractCrudEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/AbstractCrudEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\BlockEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/BlockEndpoints.php'
 	),
-	'SimplyBook\\Http\\Endpoints\\CompanyRegistrationEndpoint' => array(
-		'version' => '3.2.4.0',
-		'path'    => $baseDir . '/app/Http/Endpoints/CompanyRegistrationEndpoint.php'
-	),
 	'SimplyBook\\Http\\Endpoints\\DomainEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/DomainEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\LogOutEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/LogOutEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\LoginUrlEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/LoginUrlEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\NoticesDismissEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/NoticesDismissEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\PublicThemeListEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/PublicThemeListEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\RelatedPluginEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/RelatedPluginEndpoints.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\RemotePluginsEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/RemotePluginsEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\ServicesEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/ServicesEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\ServicesProvidersEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/ServicesProvidersEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\SettingEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/SettingEndpoints.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\StatisticsEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/StatisticsEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\SubscriptionEndpoints' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/SubscriptionEndpoints.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\ThemeColorEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/ThemeColorEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\TipsTricksEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/TipsTricksEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\WaitForRegistrationEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/WaitForRegistrationEndpoint.php'
 	),
 	'SimplyBook\\Http\\Endpoints\\WidgetEndpoint' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Endpoints/WidgetEndpoint.php'
 	),
 	'SimplyBook\\Http\\Entities\\AbstractEntity' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Entities/AbstractEntity.php'
 	),
 	'SimplyBook\\Http\\Entities\\Service' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Entities/Service.php'
 	),
 	'SimplyBook\\Http\\Entities\\ServiceProvider' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Http/Entities/ServiceProvider.php'
 	),
 	'SimplyBook\\Interfaces\\ControllerInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/ControllerInterface.php'
 	),
 	'SimplyBook\\Interfaces\\FeatureInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/FeatureInterface.php'
 	),
 	'SimplyBook\\Interfaces\\MultiEndpointInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/MultiEndpointInterface.php'
 	),
 	'SimplyBook\\Interfaces\\NoticeInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/NoticeInterface.php'
 	),
 	'SimplyBook\\Interfaces\\ProviderInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/ProviderInterface.php'
 	),
 	'SimplyBook\\Interfaces\\SingleEndpointInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/SingleEndpointInterface.php'
 	),
 	'SimplyBook\\Interfaces\\TaskInterface' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Interfaces/TaskInterface.php'
 	),
 	'SimplyBook\\Managers\\AbstractManager' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Managers/AbstractManager.php'
 	),
 	'SimplyBook\\Managers\\ControllerManager' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Managers/ControllerManager.php'
 	),
 	'SimplyBook\\Managers\\EndpointManager' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Managers/EndpointManager.php'
 	),
 	'SimplyBook\\Managers\\FeatureManager' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Managers/FeatureManager.php'
 	),
 	'SimplyBook\\Managers\\ProviderManager' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Managers/ProviderManager.php'
 	),
 	'SimplyBook\\Providers\\Provider' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Providers/Provider.php'
 	),
 	'SimplyBook\\Providers\\SimplyBookApiProvider' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Providers/SimplyBookApiProvider.php'
 	),
+	'SimplyBook\\Services\\BookingPageService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/BookingPageService.php'
+	),
 	'SimplyBook\\Services\\CallbackUrlService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/CallbackUrlService.php'
 	),
 	'SimplyBook\\Services\\CapabilityService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/CapabilityService.php'
 	),
+	'SimplyBook\\Services\\CreateAccountService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/CreateAccountService.php'
+	),
 	'SimplyBook\\Services\\DesignSettingsService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/DesignSettingsService.php'
 	),
+	'SimplyBook\\Services\\Entities\\AbstractEntityService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/Entities/AbstractEntityService.php'
+	),
+	'SimplyBook\\Services\\Entities\\CompanyInfoService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/Entities/CompanyInfoService.php'
+	),
+	'SimplyBook\\Services\\Entities\\StatisticsService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/Entities/StatisticsService.php'
+	),
+	'SimplyBook\\Services\\Entities\\SubscriptionDataService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/Entities/SubscriptionDataService.php'
+	),
+	'SimplyBook\\Services\\ExtendifyDataService' => array(
+		'version' => '3.3.0.0',
+		'path'    => $baseDir . '/app/Services/ExtendifyDataService.php'
+	),
 	'SimplyBook\\Services\\LoginUrlService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/LoginUrlService.php'
 	),
 	'SimplyBook\\Services\\NoticeDismissalService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/NoticeDismissalService.php'
 	),
 	'SimplyBook\\Services\\PromotionService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/PromotionService.php'
 	),
 	'SimplyBook\\Services\\RelatedPluginService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/RelatedPluginService.php'
 	),
-	'SimplyBook\\Services\\StatisticsService' => array(
-		'version' => '3.2.4.0',
-		'path'    => $baseDir . '/app/Services/StatisticsService.php'
-	),
-	'SimplyBook\\Services\\SubscriptionDataService' => array(
-		'version' => '3.2.4.0',
-		'path'    => $baseDir . '/app/Services/SubscriptionDataService.php'
-	),
 	'SimplyBook\\Services\\ThemeColorService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/ThemeColorService.php'
 	),
 	'SimplyBook\\Services\\WidgetTrackingService' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Services/WidgetTrackingService.php'
 	),
 	'SimplyBook\\Support\\Builders\\CompanyBuilder' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Builders/CompanyBuilder.php'
 	),
 	'SimplyBook\\Support\\Builders\\PageBuilder' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Builders/PageBuilder.php'
 	),
 	'SimplyBook\\Support\\Builders\\WidgetScriptBuilder' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Builders/WidgetScriptBuilder.php'
 	),
 	'SimplyBook\\Support\\Helpers\\DeferredObject' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/DeferredObject.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Event' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Event.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Storage' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Storage.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Storages\\EnvironmentConfig' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Storages/EnvironmentConfig.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Storages\\GeneralConfig' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Storages/GeneralConfig.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Storages\\RequestStorage' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Storages/RequestStorage.php'
 	),
 	'SimplyBook\\Support\\Helpers\\Uninstall' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Helpers/Uninstall.php'
 	),
 	'SimplyBook\\Support\\Utility\\ColorUtility' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Utility/ColorUtility.php'
 	),
 	'SimplyBook\\Support\\Utility\\StringUtility' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Utility/StringUtility.php'
 	),
 	'SimplyBook\\Support\\Widgets\\ElementorWidget' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Support/Widgets/ElementorWidget.php'
 	),
 	'SimplyBook\\Traits\\HasAllowlistControl' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasAllowlistControl.php'
 	),
 	'SimplyBook\\Traits\\HasApiAccess' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasApiAccess.php'
 	),
 	'SimplyBook\\Traits\\HasEncryption' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasEncryption.php'
 	),
 	'SimplyBook\\Traits\\HasLogging' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasLogging.php'
 	),
 	'SimplyBook\\Traits\\HasNonces' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasNonces.php'
 	),
 	'SimplyBook\\Traits\\HasRestAccess' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasRestAccess.php'
 	),
 	'SimplyBook\\Traits\\HasTokenManagement' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasTokenManagement.php'
 	),
 	'SimplyBook\\Traits\\HasUserAccess' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasUserAccess.php'
 	),
 	'SimplyBook\\Traits\\HasViews' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/HasViews.php'
 	),
 	'SimplyBook\\Traits\\LegacyLoad' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/LegacyLoad.php'
 	),
 	'SimplyBook\\Traits\\LegacySave' => array(
-		'version' => '3.2.4.0',
+		'version' => '3.3.0.0',
 		'path'    => $baseDir . '/app/Traits/LegacySave.php'
 	),
 	'Stringable' => array(
