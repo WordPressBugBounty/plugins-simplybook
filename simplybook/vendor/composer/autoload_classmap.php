@@ -216,6 +216,7 @@ return array(
     'SimplyBook\\Services\\ExtendifyDataService' => $baseDir . '/app/Services/ExtendifyDataService.php',
     'SimplyBook\\Services\\LoginUrlService' => $baseDir . '/app/Services/LoginUrlService.php',
     'SimplyBook\\Services\\NoticeDismissalService' => $baseDir . '/app/Services/NoticeDismissalService.php',
+    'SimplyBook\\Services\\PluginFirstUseTimeService' => $baseDir . '/app/Services/PluginFirstUseTimeService.php',
     'SimplyBook\\Services\\PromotionService' => $baseDir . '/app/Services/PromotionService.php',
     'SimplyBook\\Services\\RelatedPluginService' => $baseDir . '/app/Services/RelatedPluginService.php',
     'SimplyBook\\Services\\ThemeColorService' => $baseDir . '/app/Services/ThemeColorService.php',

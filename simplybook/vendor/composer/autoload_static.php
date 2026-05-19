@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8d32913a8f1db8963f795cba5d373288
+class ComposerStaticInit52341fe0c56d022658dae1e41ebee3aa
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -16,25 +16,25 @@ class ComposerStaticInit8d32913a8f1db8963f795cba5d373288
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'S' =>
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
-            'SimplyBook\\Bootrstap\\' => 21,
+            'SimplyBook\\Bootstrap\\' => 21,
             'SimplyBook\\' => 11,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Clock\\' => 10,
         ),
-        'C' => 
+        'C' =>
         array (
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
-        'A' => 
+        'A' =>
         array (
             'Automattic\\Jetpack\\Autoloader\\' => 30,
             'Adbar\\' => 6,
@@ -42,47 +42,47 @@ class ComposerStaticInit8d32913a8f1db8963f795cba5d373288
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Php80\\' => 
+        'Symfony\\Polyfill\\Php80\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
+        'Symfony\\Polyfill\\Mbstring\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Contracts\\Translation\\' => 
+        'Symfony\\Contracts\\Translation\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'Symfony\\Component\\Translation\\' => 
+        'Symfony\\Component\\Translation\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'SimplyBook\\Bootrstap\\' => 
+        'SimplyBook\\Bootstrap\\' =>
         array (
             0 => __DIR__ . '/../..' . '/bootstrap',
         ),
-        'SimplyBook\\' => 
+        'SimplyBook\\' =>
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
-        'Psr\\Clock\\' => 
+        'Psr\\Clock\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
-        'Carbon\\Doctrine\\' => 
+        'Carbon\\Doctrine\\' =>
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
         ),
-        'Carbon\\' => 
+        'Carbon\\' =>
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
-        'Automattic\\Jetpack\\Autoloader\\' => 
+        'Automattic\\Jetpack\\Autoloader\\' =>
         array (
             0 => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src',
         ),
-        'Adbar\\' => 
+        'Adbar\\' =>
         array (
             0 => __DIR__ . '/..' . '/adbario/php-dot-notation/src',
         ),
@@ -299,6 +299,7 @@ class ComposerStaticInit8d32913a8f1db8963f795cba5d373288
         'SimplyBook\\Services\\ExtendifyDataService' => __DIR__ . '/../..' . '/app/Services/ExtendifyDataService.php',
         'SimplyBook\\Services\\LoginUrlService' => __DIR__ . '/../..' . '/app/Services/LoginUrlService.php',
         'SimplyBook\\Services\\NoticeDismissalService' => __DIR__ . '/../..' . '/app/Services/NoticeDismissalService.php',
+        'SimplyBook\\Services\\PluginFirstUseTimeService' => __DIR__ . '/../..' . '/app/Services/PluginFirstUseTimeService.php',
         'SimplyBook\\Services\\PromotionService' => __DIR__ . '/../..' . '/app/Services/PromotionService.php',
         'SimplyBook\\Services\\RelatedPluginService' => __DIR__ . '/../..' . '/app/Services/RelatedPluginService.php',
         'SimplyBook\\Services\\ThemeColorService' => __DIR__ . '/../..' . '/app/Services/ThemeColorService.php',
@@ -430,9 +431,9 @@ class ComposerStaticInit8d32913a8f1db8963f795cba5d373288
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8d32913a8f1db8963f795cba5d373288::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8d32913a8f1db8963f795cba5d373288::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit8d32913a8f1db8963f795cba5d373288::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit52341fe0c56d022658dae1e41ebee3aa::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit52341fe0c56d022658dae1e41ebee3aa::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit52341fe0c56d022658dae1e41ebee3aa::$classMap;
 
         }, null, ClassLoader::class);
     }
