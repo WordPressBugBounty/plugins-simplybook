@@ -26,8 +26,4 @@ return array(
 		'version' => '3.3.0.0',
 		'path'    => $vendorDir . '/adbario/php-dot-notation/src/helpers.php'
 	),
-	'dac67ee3b45b7fdd52cfb86981c8c3d0' => array(
-		'version' => '3.3.1.0',
-		'path'    => $baseDir . '/helpers.php'
-	),
 );
