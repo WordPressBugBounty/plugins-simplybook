@@ -23,7 +23,7 @@ return array(
 		'path'    => $vendorDir . '/symfony/translation/Resources/functions.php'
 	),
 	'd767e4fc2dc52fe66584ab8c6684783e' => array(
-		'version' => '3.3.0.0',
+		'version' => '3.5.0.0',
 		'path'    => $vendorDir . '/adbario/php-dot-notation/src/helpers.php'
 	),
 );

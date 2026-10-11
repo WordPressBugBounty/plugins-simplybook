@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'really-simple-plugins/simplybookme',
-        'pretty_version' => '3.4.0',
-        'version' => '3.4.0.0',
+        'pretty_version' => '3.5.0',
+        'version' => '3.5.0.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,18 +11,18 @@
     ),
     'versions' => array(
         'adbario/php-dot-notation' => array(
-            'pretty_version' => '3.3.0',
-            'version' => '3.3.0.0',
-            'reference' => 'a94ce4493d19ea430baa8d7d210a2c9bd7129fc2',
+            'pretty_version' => '3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => 'aa09db5a7a365a8d2d8dd7edfa3cd501d1a8acb0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../adbario/php-dot-notation',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => 'v5.0.11',
-            'version' => '5.0.11.0',
-            'reference' => '90bf7b3bc29cb7be74105ac99afab4c21bc47e29',
+            'pretty_version' => 'v6.0.0',
+            'version' => '6.0.0.0',
+            'reference' => '5e7e2179fb6f955029d048eb3c3e8ebc50287ef1',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
@@ -62,8 +62,8 @@
             ),
         ),
         'really-simple-plugins/simplybookme' => array(
-            'pretty_version' => '3.4.0',
-            'version' => '3.4.0.0',
+            'pretty_version' => '3.5.0',
+            'version' => '3.5.0.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',

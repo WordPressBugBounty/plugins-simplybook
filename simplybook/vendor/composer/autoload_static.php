@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit90328555965d8a6ac34e16001611da03
+class ComposerStaticInite3d30cb0b948cab030c9d72d30251928
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -200,12 +200,13 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Bootstrap\\App' => __DIR__ . '/../..' . '/bootstrap/App.php',
         'SimplyBook\\Bootstrap\\Plugin' => __DIR__ . '/../..' . '/bootstrap/Plugin.php',
         'SimplyBook\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Controllers/AdminController.php',
-        'SimplyBook\\Controllers\\BlockController' => __DIR__ . '/../..' . '/app/Controllers/BlockController.php',
         'SimplyBook\\Controllers\\BookingPageController' => __DIR__ . '/../..' . '/app/Controllers/BookingPageController.php',
         'SimplyBook\\Controllers\\CapabilityController' => __DIR__ . '/../..' . '/app/Controllers/CapabilityController.php',
         'SimplyBook\\Controllers\\CompanyInfoController' => __DIR__ . '/../..' . '/app/Controllers/CompanyInfoController.php',
         'SimplyBook\\Controllers\\DashboardController' => __DIR__ . '/../..' . '/app/Controllers/DashboardController.php',
         'SimplyBook\\Controllers\\DesignSettingsController' => __DIR__ . '/../..' . '/app/Controllers/DesignSettingsController.php',
+        'SimplyBook\\Controllers\\Elementor\\ElementorController' => __DIR__ . '/../..' . '/app/Controllers/Elementor/ElementorController.php',
+        'SimplyBook\\Controllers\\Gutenberg\\GutenbergController' => __DIR__ . '/../..' . '/app/Controllers/Gutenberg/GutenbergController.php',
         'SimplyBook\\Controllers\\OnboardingNoticeController' => __DIR__ . '/../..' . '/app/Controllers/OnboardingNoticeController.php',
         'SimplyBook\\Controllers\\ReviewController' => __DIR__ . '/../..' . '/app/Controllers/ReviewController.php',
         'SimplyBook\\Controllers\\ScheduleController' => __DIR__ . '/../..' . '/app/Controllers/ScheduleController.php',
@@ -256,8 +257,6 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Features\\TaskManagement\\Tasks\\AddCompanyInfoTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/AddCompanyInfoTask.php',
         'SimplyBook\\Features\\TaskManagement\\Tasks\\AddMandatoryProviderTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/AddMandatoryProviderTask.php',
         'SimplyBook\\Features\\TaskManagement\\Tasks\\AddMandatoryServiceTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/AddMandatoryServiceTask.php',
-        'SimplyBook\\Features\\TaskManagement\\Tasks\\BlackFridayTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/BlackFridayTask.php',
-        'SimplyBook\\Features\\TaskManagement\\Tasks\\ChristmasPromotionTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/ChristmasPromotionTask.php',
         'SimplyBook\\Features\\TaskManagement\\Tasks\\CustomizeDesignTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/CustomizeDesignTask.php',
         'SimplyBook\\Features\\TaskManagement\\Tasks\\FailedAuthenticationTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/FailedAuthenticationTask.php',
         'SimplyBook\\Features\\TaskManagement\\Tasks\\GatherClientInfoTask' => __DIR__ . '/../..' . '/app/Features/TaskManagement/Tasks/GatherClientInfoTask.php',
@@ -272,11 +271,11 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Http\\ApiClient' => __DIR__ . '/../..' . '/app/Http/ApiClient.php',
         'SimplyBook\\Http\\DTO\\ApiResponseDTO' => __DIR__ . '/../..' . '/app/Http/DTO/ApiResponseDTO.php',
         'SimplyBook\\Http\\Endpoints\\AbstractCrudEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/AbstractCrudEndpoint.php',
+        'SimplyBook\\Http\\Endpoints\\AdminNoticesEndpoints' => __DIR__ . '/../..' . '/app/Http/Endpoints/AdminNoticesEndpoints.php',
         'SimplyBook\\Http\\Endpoints\\BlockEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/BlockEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\DomainEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/DomainEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\LogOutEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/LogOutEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\LoginUrlEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/LoginUrlEndpoint.php',
-        'SimplyBook\\Http\\Endpoints\\NoticesDismissEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/NoticesDismissEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\PublicThemeListEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/PublicThemeListEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\RelatedPluginEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/RelatedPluginEndpoint.php',
         'SimplyBook\\Http\\Endpoints\\RemotePluginsEndpoint' => __DIR__ . '/../..' . '/app/Http/Endpoints/RemotePluginsEndpoint.php',
@@ -312,6 +311,7 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Managers\\ProviderManager' => __DIR__ . '/../..' . '/app/Managers/ProviderManager.php',
         'SimplyBook\\Providers\\AbstractProvider' => __DIR__ . '/../..' . '/app/Providers/AbstractProvider.php',
         'SimplyBook\\Providers\\SimplyBookApiProvider' => __DIR__ . '/../..' . '/app/Providers/SimplyBookApiProvider.php',
+        'SimplyBook\\Services\\AdminNoticeService' => __DIR__ . '/../..' . '/app/Services/AdminNoticeService.php',
         'SimplyBook\\Services\\BookingPageService' => __DIR__ . '/../..' . '/app/Services/BookingPageService.php',
         'SimplyBook\\Services\\CallbackUrlService' => __DIR__ . '/../..' . '/app/Services/CallbackUrlService.php',
         'SimplyBook\\Services\\CapabilityService' => __DIR__ . '/../..' . '/app/Services/CapabilityService.php',
@@ -324,9 +324,7 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Services\\Entities\\SubscriptionDataService' => __DIR__ . '/../..' . '/app/Services/Entities/SubscriptionDataService.php',
         'SimplyBook\\Services\\ExtendifyDataService' => __DIR__ . '/../..' . '/app/Services/ExtendifyDataService.php',
         'SimplyBook\\Services\\LoginUrlService' => __DIR__ . '/../..' . '/app/Services/LoginUrlService.php',
-        'SimplyBook\\Services\\NoticeDismissalService' => __DIR__ . '/../..' . '/app/Services/NoticeDismissalService.php',
         'SimplyBook\\Services\\PluginFirstUseTimeService' => __DIR__ . '/../..' . '/app/Services/PluginFirstUseTimeService.php',
-        'SimplyBook\\Services\\PromotionService' => __DIR__ . '/../..' . '/app/Services/PromotionService.php',
         'SimplyBook\\Services\\RelatedPluginService' => __DIR__ . '/../..' . '/app/Services/RelatedPluginService.php',
         'SimplyBook\\Services\\ThemeColorService' => __DIR__ . '/../..' . '/app/Services/ThemeColorService.php',
         'SimplyBook\\Services\\WidgetTrackingService' => __DIR__ . '/../..' . '/app/Services/WidgetTrackingService.php',
@@ -343,6 +341,8 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
         'SimplyBook\\Support\\Utility\\ColorUtility' => __DIR__ . '/../..' . '/app/Support/Utility/ColorUtility.php',
         'SimplyBook\\Support\\Utility\\StringUtility' => __DIR__ . '/../..' . '/app/Support/Utility/StringUtility.php',
         'SimplyBook\\Support\\Widgets\\ElementorWidget' => __DIR__ . '/../..' . '/app/Support/Widgets/ElementorWidget.php',
+        'SimplyBook\\Support\\Widgets\\GutenbergWidget' => __DIR__ . '/../..' . '/app/Support/Widgets/GutenbergWidget.php',
+        'SimplyBook\\Support\\Widgets\\ShortcodeWidget' => __DIR__ . '/../..' . '/app/Support/Widgets/ShortcodeWidget.php',
         'SimplyBook\\Traits\\HasAllowlistControl' => __DIR__ . '/../..' . '/app/Traits/HasAllowlistControl.php',
         'SimplyBook\\Traits\\HasApiAccess' => __DIR__ . '/../..' . '/app/Traits/HasApiAccess.php',
         'SimplyBook\\Traits\\HasEncryption' => __DIR__ . '/../..' . '/app/Traits/HasEncryption.php',
@@ -458,9 +458,9 @@ class ComposerStaticInit90328555965d8a6ac34e16001611da03
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit90328555965d8a6ac34e16001611da03::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit90328555965d8a6ac34e16001611da03::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit90328555965d8a6ac34e16001611da03::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite3d30cb0b948cab030c9d72d30251928::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite3d30cb0b948cab030c9d72d30251928::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite3d30cb0b948cab030c9d72d30251928::$classMap;
 
         }, null, ClassLoader::class);
     }
